@@ -3,73 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Dealership Project</title>
+    <title>Contact Us | Car Dealership</title>
     <link rel="stylesheet" href="styles.css">
-
     <style>
+        * { box-sizing: border-box; }
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f4f6f9;
-            color: #333;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #263238;
         }
-
         nav {
-            background-color: #17365d;
+            background: #17365d;
             padding: 16px;
             text-align: center;
         }
-
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 18px;
+            padding: 8px;
         }
-
         nav a.active {
+            border-bottom: 3px solid #ffca28;
             font-weight: bold;
-            text-decoration: underline;
         }
-
         header {
+            padding: 35px 20px;
             background: white;
             text-align: center;
-            padding: 30px 20px;
         }
-
+        header h1 { color: #17365d; }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 30px auto;
+            padding: 25px;
+        }
+        .hero-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .contact-layout {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 25px;
+        }
+        .contact-card {
+            flex: 1 1 280px;
             padding: 25px;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,.1);
         }
-
-        .contact-image {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-            border-radius: 8px;
+        .contact-card h2 { color: #17365d; }
+        .contact-card p { line-height: 1.8; }
+        .contact-card a {
+            color: #1565c0;
+            overflow-wrap: anywhere;
         }
-
-        .contact-details {
-            line-height: 1.8;
-        }
-
-        .contact-details a {
-            color: #17365d;
-        }
-
         footer {
-            text-align: center;
-            padding: 20px;
             background: #17365d;
             color: white;
+            text-align: center;
+            padding: 18px;
         }
     </style>
 </head>
-
 <body>
     <nav>
         <a href="/">Home</a>
@@ -79,36 +81,53 @@
 
     <header>
         <h1>Contact Us</h1>
-        <p>We're here to help you with your dealership questions.</p>
+        <p>Have questions about dealerships or customer reviews? Get in touch with us.</p>
     </header>
 
     <main class="container">
         <img
-            class="contact-image"
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200"
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80"
             alt="Modern business office building">
 
-        <section class="contact-details">
-            <h2>Get in Touch</h2>
-            <p>Contact our team for assistance with dealerships, customer reviews, or application questions.</p>
+        <section class="contact-layout">
+            <article class="contact-card">
+                <h2>Contact Information</h2>
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="mailto:support@example.com">support@example.com</a>
+                </p>
+                <p>
+                    <strong>Phone:</strong><br>
+                    <a href="tel:+912530000000">+91 253 000 0000</a>
+                </p>
+                <p>
+                    <strong>Address:</strong><br>
+                    Nashik, Maharashtra, India
+                </p>
+            </article>
 
-            <h3>Address</h3>
-            <p>Dealership Project Support Center<br>
-            Nashik, Maharashtra, India</p>
+            <article class="contact-card">
+                <h2>How We Can Help</h2>
+                <p>Questions about browsing dealerships?</p>
+                <p>Need help viewing or submitting reviews?</p>
+                <p>Interested in learning about this application?</p>
+                <p>
+                    Email our support team, and we will be happy to assist.
+                </p>
+            </article>
 
-            <h3>Email</h3>
-            <p><a href="mailto:support@example.com">support@example.com</a></p>
-
-            <h3>Phone</h3>
-            <p><a href="tel:+912530000000">+91 253 000 0000</a></p>
-
-            <h3>Business Hours</h3>
-            <p>Monday–Friday: 9:00 AM – 5:00 PM IST</p>
+            <article class="contact-card">
+                <h2>Business Hours</h2>
+                <p><strong>Monday–Friday:</strong> 9:00 AM – 5:00 PM IST</p>
+                <p><strong>Saturday:</strong> 10:00 AM – 2:00 PM IST</p>
+                <p><strong>Sunday:</strong> Closed</p>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Dealership Project. All rights reserved.</p>
+        <p>&copy; 2026 Car Dealership Application | IBM Capstone Project</p>
     </footer>
 </body>
 </html>
