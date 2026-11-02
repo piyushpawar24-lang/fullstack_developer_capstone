@@ -3,67 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Car Dealership</title>
+
+    <title>Contact Us - Best Cars Dealership</title>
+
+    <!-- Required stylesheet links -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
     <style>
-        * { box-sizing: border-box; }
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            color: #263238;
+            margin: 0;
+            background-color: #f5f7fa;
+            color: #333;
         }
-        nav {
-            background: #17365d;
+
+        .navbar {
+            background-color: #17365d;
             padding: 16px;
             text-align: center;
         }
-        nav a {
+
+        .navbar a {
             color: white;
             text-decoration: none;
             margin: 0 18px;
             padding: 8px;
         }
-        nav a.active {
-            border-bottom: 3px solid #ffca28;
+
+        .navbar a.active {
             font-weight: bold;
+            border-bottom: 3px solid #ffc107;
         }
+
         header {
-            padding: 35px 20px;
-            background: white;
             text-align: center;
+            background: white;
+            padding: 30px 20px;
         }
-        header h1 { color: #17365d; }
+
+        header h1 {
+            color: #17365d;
+        }
+
         .container {
             max-width: 1000px;
             margin: 30px auto;
-            padding: 25px;
+            padding: 20px;
         }
-        .hero-image {
+
+        .contact-image {
             width: 100%;
             max-height: 350px;
             object-fit: cover;
             border-radius: 10px;
         }
-        .contact-layout {
+
+        .contact-grid {
             display: flex;
             flex-wrap: wrap;
-            gap: 25px;
+            gap: 24px;
             margin-top: 25px;
         }
+
         .contact-card {
-            flex: 1 1 280px;
-            padding: 25px;
+            flex: 1 1 260px;
             background: white;
+            padding: 24px;
             border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
-        .contact-card h2 { color: #17365d; }
-        .contact-card p { line-height: 1.8; }
+
+        .contact-card h2 {
+            color: #17365d;
+        }
+
+        .contact-card p {
+            line-height: 1.8;
+        }
+
         .contact-card a {
             color: #1565c0;
             overflow-wrap: anywhere;
         }
+
         footer {
             background: #17365d;
             color: white;
@@ -72,35 +95,48 @@
         }
     </style>
 </head>
+
 <body>
-    <nav>
+    <nav class="navbar">
         <a href="/">Home</a>
         <a href="About.html">About Us</a>
-        <a href="Contact.html" class="active">Contact Us</a>
+        <a href="Contact.html" class="active" aria-current="page">
+            Contact Us
+        </a>
     </nav>
 
     <header>
         <h1>Contact Us</h1>
-        <p>Have questions about dealerships or customer reviews? Get in touch with us.</p>
+        <p>
+            Have questions about dealerships or customer reviews?
+            Our team is here to help.
+        </p>
     </header>
 
     <main class="container">
         <img
-            class="hero-image"
+            class="contact-image"
             src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80"
             alt="Modern business office building">
 
-        <section class="contact-layout">
+        <section class="contact-grid">
             <article class="contact-card">
                 <h2>Contact Information</h2>
+
                 <p>
                     <strong>Email:</strong><br>
-                    <a href="mailto:support@example.com">support@example.com</a>
+                    <a href="mailto:support@example.com">
+                        support@example.com
+                    </a>
                 </p>
+
                 <p>
                     <strong>Phone:</strong><br>
-                    <a href="tel:+912530000000">+91 253 000 0000</a>
+                    <a href="tel:+912530000000">
+                        +91 253 000 0000
+                    </a>
                 </p>
+
                 <p>
                     <strong>Address:</strong><br>
                     Nashik, Maharashtra, India
@@ -108,26 +144,34 @@
             </article>
 
             <article class="contact-card">
-                <h2>How We Can Help</h2>
-                <p>Questions about browsing dealerships?</p>
-                <p>Need help viewing or submitting reviews?</p>
-                <p>Interested in learning about this application?</p>
+                <h2>Customer Support</h2>
+
                 <p>
-                    Email our support team, and we will be happy to assist.
+                    Need help finding a dealership? Contact us for assistance
+                    with dealership listings, dealer information, and customer
+                    reviews.
+                </p>
+
+                <p>
+                    We welcome your questions and feedback about the
+                    Car Dealership Application.
                 </p>
             </article>
 
             <article class="contact-card">
                 <h2>Business Hours</h2>
-                <p><strong>Monday–Friday:</strong> 9:00 AM – 5:00 PM IST</p>
-                <p><strong>Saturday:</strong> 10:00 AM – 2:00 PM IST</p>
-                <p><strong>Sunday:</strong> Closed</p>
+
+                <p><strong>Monday–Friday:</strong><br>9:00 AM – 5:00 PM IST</p>
+
+                <p><strong>Saturday:</strong><br>10:00 AM – 2:00 PM IST</p>
+
+                <p><strong>Sunday:</strong><br>Closed</p>
             </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Car Dealership Application | IBM Capstone Project</p>
+        <p>&copy; 2026 Best Cars Dealership. All rights reserved.</p>
     </footer>
 </body>
 </html>
