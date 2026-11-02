@@ -2,8 +2,8 @@
 
 **Repository Name:** fullstack_developer_capstone
 
-**Project Name:** fullstack_developer_capstone
+**Project Name:** Best Cars Dealership
 
 ## About
 
-This project is the IBM Full Stack Developer Capstone. It involves building a full-stack car dealership application using front-end and back-end technologies, authentication, APIs, and deployment tools.
+Best Cars Dealership is a web-based car dealership platform designed to help customers explore available vehicles, find dealerships, and share their experiences through customer reviews. The application provides dealership information, vehicle details, user registration and login, and review management features. Built using modern front-end and back-end technologies, the platform aims to provide a convenient, reliable, and user-friendly car-buying experience.
