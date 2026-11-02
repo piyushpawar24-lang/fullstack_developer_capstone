@@ -1,13 +1,13 @@
-# IBM Full Stack Django and React Dealership Application
+# Car Dealership Application
 
 ## Repository Name
-`dealership-project`
+`fullstack_developer_capstone`
 
 ## Project Name
-IBM Full Stack Django and React Dealership Application
+IBM Full Stack Developer Capstone Project — Car Dealership Application
 
 ## Project Description
-This project is a full-stack car dealership application developed using Django and React. It allows users to browse car dealerships, view dealer details, register and log in, and submit reviews.
+This project is part of the IBM Full Stack Software Developer Capstone. It involves developing a car dealership application using Django and React. Users can browse dealerships, view dealership details, register and log in, and submit reviews.
 
 ## Technologies Used
 - Python
@@ -17,8 +17,8 @@ This project is a full-stack car dealership application developed using Django a
 - JavaScript
 - HTML and CSS
 - Git and GitHub
-- GitHub Actions
 - Docker
+- GitHub Actions
 
 ## Key Features
 - User registration, login, and logout
@@ -31,4 +31,4 @@ This project is a full-stack car dealership application developed using Django a
 - Continuous integration and deployment
 
 ## Project Repository
-https://github.com/piyushpawar24-lang/dealership-project
+https://github.com/piyushpawar24-lang/fullstack_developer_capstone
