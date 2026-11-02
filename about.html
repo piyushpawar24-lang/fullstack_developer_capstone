@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dealership Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+        nav {
+            background: #17365d;
+            padding: 16px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+        }
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        header {
+            text-align: center;
+            padding: 35px 20px;
+            background: white;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            padding: 25px;
+        }
+        .member {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,.1);
+        }
+        .member img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .member a {
+            color: #17365d;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="About.html" class="active">About Us</a>
+        <a href="Contact.html">Contact Us</a>
+    </nav>
+
+    <header>
+        <h1>About Us</h1>
+        <p>Helping you discover trusted car dealerships and make informed decisions.</p>
+    </header>
+
+    <main class="team">
+        <section class="member">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400"
+                 alt="Business professional">
+            <h2>Alex Morgan</h2>
+            <h3>Project Manager</h3>
+            <p>Coordinates the project and works to deliver a reliable dealership experience.</p>
+            <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a>
+        </section>
+
+        <section class="member">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400"
+                 alt="Software developer">
+            <h2>Jamie Taylor</h2>
+            <h3>Full-Stack Developer</h3>
+            <p>Develops and maintains the application interface and backend services.</p>
+            <a href="mailto:jamie.taylor@example.com">jamie.taylor@example.com</a>
+        </section>
+
+        <section class="member">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400"
+                 alt="Customer support professional">
+            <h2>Chris Lee</h2>
+            <h3>Customer Experience Lead</h3>
+            <p>Focuses on making dealership information and customer reviews easy to use.</p>
+            <a href="mailto:chris.lee@example.com">chris.lee@example.com</a>
+        </section>
+    </main>
+</body>
+</html>
