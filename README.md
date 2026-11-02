@@ -2,8 +2,8 @@
 
 **Repository Name:** fullstack_developer_capstone
 
-**Project Name:** Best Cars Dealership
+**Project Name:** fullstack_developer_capstone
 
 ## About
 
-Best Cars Dealership is a web-based car dealership platform designed to help customers explore available vehicles, find dealerships, and share their experiences through customer reviews. The application provides dealership information, vehicle details, user registration and login, and review management features. Built using modern front-end and back-end technologies, the platform aims to provide a convenient, reliable, and user-friendly car-buying experience.
+This project is the IBM Full Stack Developer Capstone. It involves developing a full-stack car dealership application with dealership information, customer reviews, user authentication, and API integration.
